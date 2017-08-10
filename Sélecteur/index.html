@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Sélecteur d'images</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="filterImg">
+    <button type="button" onclick="selectImg('resetAll')">X</button>
+    <button type="button" onclick="selectImg('courtMetrage')">Courts métrages</button>
+    <button type="button" onclick="selectImg('longMetrage')">Longs métrages</button>
+    <button type="button" onclick="selectImg('documentaire')">Documentaires</button>
+    <button type="button" onclick="selectImg('serie')">Séries</button>
+    <button type="button" onclick="selectImg('fiction')">Fictions</button>
+  </div>
+
+  <div class="imgAll">
+    <img class="documentaire" src="img/boulimik.png" alt="logo boulimik">
+    <img class="courtMetrage" src="img/tonfilm.png" alt="logo tonfilm">
+    <img class="fiction" src="img/unautreregard.png" alt="logo unautreregard">
+    <img class="longMetrage documentaire serie" src="img/zebraproduction.png" alt="logo zebraproduction">
+    <img class="serie fiction" src="img/clapetzap.png" alt="logo clapetzap">
+  </div>
+</body>
+</html>
+<script src="js/main.js"></script>

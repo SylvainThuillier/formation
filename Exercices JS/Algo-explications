@@ -1,0 +1,173 @@
+﻿Le but de ces exercices est de développer la logique de base en programmation et d’apprendre le JS. Le temps indiqué est approximatif et permet juste d’avoir un ordre d’idée.
+
+Les meilleurs conditions pour les apprenants pour les réaliser seraient :
+- avoir une base de connaissance en JS
+- ne pas utiliser internet
+- essayer de les faire chacun de son côté
+- ne pas utiliser de fonction native à JS comme sort(), reduce(), reverse(), map(), push(), etc. (excepté Math.random() et Math.floor() pour générer des valeurs entières aléatoires)
+- être au calme
+- réutiliser certains exercices déjà faits pour en résoudre d’autres
+
+Pour le formateur :
+- donner de temps en temps des indices pour aider les apprenants bloqués
+- ajuster le temps des exercices selon les besoins
+
+La difficulté des exercices (si faits dans l’ordre) n’est pas forcément progressive mais plutôt variable
+
+
+Exo 1
+Inverser les contenus de 2 variables en utilisant 3 variables
+
+Utile dans le tri d'un tableau par exemple
+Le but est de manipuler les variables, le mieux pour cet exercices serait d’utiliser des caractères
+15 min
+
+
+Exo 2
+Inverser deux nombres avec seulement 2 variables, sans utiliser de valeurs extérieurs à ces deux variables
+
+Utile dans le tri d'un tableau de valeurs par exemple
+Le but est de chercher une façon différente d’inverser des valeurs que de passer par une variable temporaire
+15 min chacun
+
+
+Exo 3A
+Faire un random de 1 à 100, l'afficher et recommencer tant que la valeur est supérieure à 10
+
+Utile pour éviter les boucles infinies
+Le but est de comprendre le fonctionnement d’une boucle et éviter les « infinite loop »
+15 min
+
+
+Exo 3B
+Faire un random de 1 à 100 sur deux valeurs séparées et comparer laquelle est plus forte et l'indiquer
+
+(défis supplémentaire :
+- ajouter s’ils sont égaux)
+- utiliser l’opérateur ternaire
+Utile dans la comparaison de prix ou application de filtres dans un site d’e-commerce par exemple
+Le but est de comprendre les comparaisons imbriquées et l’opérateur ternaire
+15 min
+
+
+Exo 4
+Remplir un tableau avec 5 valeurs aléatoires entre 50 et 100, puis en faire la somme et l’afficher
+
+Utile dans le cadre d'un panier d'articles afin d'afficher le prix total par exemple
+Le but est de manipuler les données d’un tableau
+30min
+
+
+Exo 5
+Remplir un tableau de 5 valeurs aléatoires puis trier le tableau par ordre décroissant (sans utiliser des fonctions)
+
+Utile dans le tri de données comme les quantités de stock restants par exemple
+Le but est de manipuler les boucles imbriquées et comprendre en quoi la fonction :sort() native de JS n’est pas toujours une bonne solution
+30 min
+
+
+Exo 6
+Le joueur commence avec 100 crédits. Il mise au hasard entre 1 et 100 et il choisit au hasard pile ou face. La pièce est lancée au hasard aussi. Si les deux pièces sont tombées du même côté alors le joueur gagne ce qu'il a misé sinon il perd la mise. Le jeu continue tant qu'il a des crédits.
+
+Utile pour mieux comprendre les comparaisons et les boucles
+Le but est de manipuler les conditions d’arrêt des boucles
+30 min
+
+
+Exo 7
+Jeu de mise à deux joueurs avec un random sur deux dés en s’inspirant de l’exo 6
+Si les dés valent 7 alors la banque gagne (ils perdent leurs mises)
+Si les dés = leurs choix alors il gagnent leurs mises
+Se termine lorsque les deux joueurs n’ont plus d'argent
+
+Utile pour comprendre plusieurs conditions d’arrêt en même temps
+Le but est de manipuler des boucles et conditions
+1H
+
+
+Exo 8
+Remplir un tableau de 7 cases avec des mots (1 par case)
+Parcourir les 5 cases du milieu du tableau à l’envers
+Afficher le contenu sur une ligne comme une phrase
+
+Utile pour la manipulation de tableau
+Le but est de comprendre comment parcourir un tableau d’une façon différente
+15 min
+
+
+Exo 9
+Créer un tableau à deux dimensions de 25 cases.
+Remplir ce tableau avec des random de 1 à 100.
+Additionner chaque « colonnes » et afficher les résultats dans un autre tableau
+
+Utile pour la manipulation de tableau
+Le but est de comprendre comment parcourir plusieurs tableaux
+30 min
+
+
+Exo 10
+Faire une fonction qui prend en paramètre une phrase quelconque
+La fonction devra afficher combien de chaque caractères est existants dans la phrase (lettres, espace, ponctuation)
+Exemple avec la phrase « Hello Darkness My Old Friend » :
+h : 1
+e : 3
+l : 3
+o : 1
+  : 4 (espace vide)
+...
+
+Utile pour la manipulation et la comparaison de chaines de caractères
+Le but est de comprendre comment parcourir des String et utiliser une fonction
+30 min
+
+
+Exo 11
+Créer une fonction qui prend en paramètre 2 phrases
+Indiquer si la deuxième apparait dans la première
+
+Utile pour chercher et remplacer des caractères
+Le but est de manipuler les String
+30 min
+
+
+Exo 12
+Faire un random de 0 à 10
+En utilisant un « switch » afficher pour:
+- 1,2 et 3 : petit
+- 4,5 et 6 : moyen
+- 7,8 et 9 : grand
+- le reste : données incorrectes
+
+Utile traiter en groupe plusieurs conditions similaires
+Le but est de manipuler le « switch » et d’éviter les répétitions de code
+15 min
+
+
+Exo 13
+Créer une « liste »(avec {} ) de 3 couleurs avec leurs noms en indice et un tableau de fruit pour chaque couleur avec 3 fruits par couleurs maximum
+Pour chaque fruit indiqué s’il possède un noyau ou pas et si la pelure du fruit se mange ou pas
+Afficher l’ensemble de la liste obtenue
+Afficher si la peau d’un des fruits de la deuxième couleur se mange (au choix)
+
+Utile pour comprendre le fonctionnement des listes
+Le but est de voir la différence avec les tableaux et commencer à explorer JSON et les objets
+30 min
+
+
+Exo 14
+Créer un tableau comprenant 5 dates (années) différentes
+Créer une fonction qui prend en paramètre ce tableau et une autre fonction
+La deuxième fonction doit faire le calcul de l’âge en fonction de l’année actuellement en cours par rapport aux années du tableau
+Afficher les résultats et indiquer si l’âge est considéré comme majeur ou non
+
+Utile pour comprendre les fonctions
+Le but est de manipuler les fonctions et les passage de paramètres entre elles
+30 min
+
+
+Optionnel :
+Exo 15
+Faire un morpion en y réfléchissant par petits groupes
+Utile pour apprendre l’organisation du temps, gestion de projet, méthode agile, etc.
+Le but est de développer l’utilisation du JS dans le DOM et confirmer la compréhension des éléments vue dans les précédents exercices
+1 à 2 jour (pas encore de solution pour cet exercice)
